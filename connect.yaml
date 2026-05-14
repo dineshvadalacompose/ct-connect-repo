@@ -1,0 +1,14 @@
+deployAs:
+  - name: ct-custom-app
+    applicationType: merchant-center-custom-application
+    configuration:
+      standardConfiguration:
+        - key: CUSTOM_APPLICATION_ID
+          description: The Custom Application ID
+          required: true
+        - key: CLOUD_IDENTIFIER
+          description: The cloud identifier
+          default: 'gcp-au'
+        - key: ENTRY_POINT_URI_PATH
+          description: The Application entry point URI path
+          required: true
