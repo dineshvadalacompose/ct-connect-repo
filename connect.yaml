@@ -1,6 +1,7 @@
 deployAs:
   - name: ct-custom-app
     applicationType: merchant-center-custom-application
+    endpoint: /ct-custom-app
     configuration:
       standardConfiguration:
         - key: CUSTOM_APPLICATION_ID
